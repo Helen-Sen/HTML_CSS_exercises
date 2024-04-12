@@ -1,0 +1,58 @@
+div~p{ 
+    color: yellow;
+}
+
+p.rabbit{
+    color:red;
+}
+
+p.rabbit.mini{
+     border:2px dashed green;
+}
+
+#animal{
+    background-color: lightgray;
+    padding: 20px;
+} 
+div p{
+    color:aquamarine;
+}
+
+div .rabbit{
+    color:red;
+}
+
+a[href*="google"]{
+    background-color: rgb(236, 164, 225);
+    font-weight: bold;
+    color: white;
+}
+
+a[href$=".com"] {
+    background-color: rgb(236, 164, 225);
+    font-weight: bold;
+    color: white;
+}
+
+div {
+    color: blue;
+    border: 1px solid red;
+    margin: 40px;
+    font-weight: bold;
+}
+
+p {
+    border: inherit;
+    margin: inherit;
+    color: green;
+}
+
+/* p {
+display: inline-block;
+box-sizing: content-box;
+margin: 10px;
+padding: 5px;
+border-width: 1px;
+width: 100px;
+max-width: 80px;
+} */
